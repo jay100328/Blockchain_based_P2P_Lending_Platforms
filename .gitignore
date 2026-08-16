@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+
+# Frontend build
+frontend/build/
+frontend/node_modules/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
