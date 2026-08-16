@@ -4,7 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-artifacts": "node copy-artifacts.js"
+    "copy-artifacts": "node copy-artifacts.js",
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "node:local": "npx hardhat node",
+    "start:backend": "node backend/server.js",
+    "start:frontend": "npm start --prefix frontend"
   },
   "keywords": [],
   "author": "",
